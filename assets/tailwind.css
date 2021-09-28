@@ -1,0 +1,17 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+button:focus {
+  outline: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+#app {
+  font-family: 'Sen', sans-serif !important;
+  scroll-behavior: smooth !important;
+}
+
